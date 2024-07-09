@@ -13,7 +13,7 @@ const pool = mariadb.createPool({
   host: 'localhost',
   user: 'stanko',
   password: 'stanko98',
-  database: 'test_zakazivanje',
+  database: 'kalendar_zakazivanje',
   connectionLimit: 5
 });
 
